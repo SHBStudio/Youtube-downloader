@@ -63,7 +63,7 @@ class YoutubeDownloader(wx.Frame):
 
         # Checkbox for audio download
         self.audio_checkbox = wx.CheckBox(panel, label="Download Audio")
-        self.audio_checkbox.SetValue(True)  # Default: Download audio
+        self.audio_checkbox.SetValue(False)  # Default: Download audio
 
         # Layout
         vbox.Add(url_label, flag=wx.ALL, border=10)
